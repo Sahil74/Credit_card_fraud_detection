@@ -11,6 +11,7 @@ and prevention.
 
 - Python 3.x
 - Libraries: numpy, pandas, matplotlib, seaborn, scikit-learn, imbalanced-learn, tensorflow
+- pip install numpy pandas matplotlib seaborn scikit-learn imbalanced-learn tensorflow
 
 ## Code Explanation
 
