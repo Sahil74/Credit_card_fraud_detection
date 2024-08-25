@@ -1,5 +1,7 @@
 # Credit Card Fraud Detection
 
+![Credit Card Detection](./images.jpeg)
+
 ## Overview
 
 This project aims to detect fraudulent transactions in credit card datasets using machine learning techniques. 
