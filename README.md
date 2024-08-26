@@ -40,7 +40,7 @@ and prevention.
 
 ## Key Features and Importance of Columns
 - In this project, time-related columns such as year, month, day, hour, minute, and second are crucial for capturing the temporal patterns in transaction data. Analyzing when transactions occur can reveal unusual activity, such as transactions made at odd hours or during unusual times of the year, which may indicate fraudulent behavior.
-- Additionally, spending categories like entertainment, food_dining, gas_transport, and travel are important as they reflect the user's typical spending habits. Sudden spikes or unusual patterns in these categories could signal fraudulent activity, making these columns essential for the model's ability to identify anomalies.
+- Additionally, spending categories like amt(amount), shopping_net, grocery_pos, misc_net, and city_pop are important as they reflect the user's typical spending habits. Sudden spikes or unusual patterns in these categories could signal fraudulent activity, making these columns essential for the model's ability to identify anomalies.
 
 ## Model Performance
 - The algorithm, implemented using a neural network model, demonstrated exceptional performance in detecting fraudulent transactions. With an accuracy of 99%, the model showed a high level of precision and recall across both classes—fraudulent and legitimate transactions. The confusion matrix revealed minimal false positives and false negatives, indicating that the model accurately distinguishes between legitimate and fraudulent activity. This high accuracy and reliability make the model a powerful tool for fraud detection, capable of significantly reducing the risk of undetected fraudulent transactions.
